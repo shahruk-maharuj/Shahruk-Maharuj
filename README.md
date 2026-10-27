@@ -9,7 +9,7 @@
 <img src="./assets/contact.svg" alt="Let's work. I take on a few projects at a time. The quickest way to reach me is Fiverr." width="100%" />
 
 <p align="center">
-  <a href="https://www.fiverr.com/shahrukapp"><img src="./assets/btn-fiverr.svg" alt="Hire on Fiverr" height="56" /></a>
+  <a href="https://www.fiverr.com/shahrukapp"><img src="./assets/btn-fiverr.svg" alt="Hire on Fiverr" height="60" /></a>
   &nbsp;
-  <a href="https://www.facebook.com/shahruk.maharuj"><img src="./assets/btn-facebook.svg" alt="Facebook" height="56" /></a>
+  <a href="https://www.facebook.com/shahruk.maharuj"><img src="./assets/btn-facebook.svg" alt="Facebook" height="60" /></a>
 </p>
