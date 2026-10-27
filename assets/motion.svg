@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="A GSAP timeline and the animation it produces">
+  <defs>
+    <linearGradient id="acc2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <clipPath id="c2"><rect width="960" height="300" rx="18"/></clipPath>
+    <clipPath id="titleMask"><rect x="660" y="92" width="290" height="40"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; white-space: pre; }
+      .ln, .pt, .pcopy, .pc, .cur { animation-duration: 9s; animation-iteration-count: infinite; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+      .l0 { animation: typeIn 9s cubic-bezier(0.16, 1, 0.3, 1) infinite; animation-delay: 0s; }
+@keyframes t0 { 0%, 2.22% { opacity: 0; transform: translateX(-8px); } 7.78%, 92% { opacity: 1; transform: translateX(0); } 98%, 100% { opacity: 0; } }
+.l0 { animation-name: t0; }
+.l1 { animation: typeIn 9s cubic-bezier(0.16, 1, 0.3, 1) infinite; animation-delay: 0s; }
+@keyframes t1 { 0%, 5.56% { opacity: 0; transform: translateX(-8px); } 11.11%, 92% { opacity: 1; transform: translateX(0); } 98%, 100% { opacity: 0; } }
+.l1 { animation-name: t1; }
+.l3 { animation: typeIn 9s cubic-bezier(0.16, 1, 0.3, 1) infinite; animation-delay: 0s; }
+@keyframes t3 { 0%, 12.22% { opacity: 0; transform: translateX(-8px); } 17.78%, 92% { opacity: 1; transform: translateX(0); } 98%, 100% { opacity: 0; } }
+.l3 { animation-name: t3; }
+.l4 { animation: typeIn 9s cubic-bezier(0.16, 1, 0.3, 1) infinite; animation-delay: 0s; }
+@keyframes t4 { 0%, 17.78% { opacity: 0; transform: translateX(-8px); } 23.33%, 92% { opacity: 1; transform: translateX(0); } 98%, 100% { opacity: 0; } }
+.l4 { animation-name: t4; }
+.l5 { animation: typeIn 9s cubic-bezier(0.16, 1, 0.3, 1) infinite; animation-delay: 0s; }
+@keyframes t5 { 0%, 23.33% { opacity: 0; transform: translateX(-8px); } 28.89%, 92% { opacity: 1; transform: translateX(0); } 98%, 100% { opacity: 0; } }
+.l5 { animation-name: t5; }
+
+      .pt { animation-name: pt; }
+      .pcopy { animation-name: pcopy; }
+      @keyframes pt { 0%, 12.22% { transform: translateY(40px); } 25.56%, 92% { transform: none; opacity: 1; } 98%, 100% { opacity: 0; } }
+
+      @keyframes pcopy { 0%, 17.78% { opacity: 0; transform: translateY(24px); } 31.11%, 92% { transform: none; opacity: 1; } 98%, 100% { opacity: 0; } }
+
+      @keyframes pc0 { 0%, 23.33% { opacity: 0; transform: scale(.9); } 36.67%, 92% { transform: none; opacity: 1; } 98%, 100% { opacity: 0; } }
+@keyframes pc1 { 0%, 24.22% { opacity: 0; transform: scale(.9); } 37.56%, 92% { transform: none; opacity: 1; } 98%, 100% { opacity: 0; } }
+@keyframes pc2 { 0%, 25.11% { opacity: 0; transform: scale(.9); } 38.44%, 92% { transform: none; opacity: 1; } 98%, 100% { opacity: 0; } }
+
+      .play { animation: playhead 9s linear infinite; }
+      @keyframes playhead { 0%, 12% { transform: scaleX(0); } 40%, 92% { transform: scaleX(1); } 100% { transform: scaleX(1); opacity: 0; } }
+    </style>
+  </defs>
+  <g clip-path="url(#c2)">
+    <rect width="960" height="300" fill="#0A0B0F"/>
+    <!-- editor -->
+    <circle cx="34" cy="30" r="5.5" fill="#3F3F46"/><circle cx="52" cy="30" r="5.5" fill="#3F3F46"/><circle cx="70" cy="30" r="5.5" fill="#3F3F46"/>
+    <text x="96" y="34" class="mono" font-size="12" fill="#71717A">hero.js</text>
+    <line x1="0" y1="54" x2="610" y2="54" stroke="#FFFFFF" stroke-opacity=".06"/>
+    <text x="58" y="92" class="mono ln l0" font-size="13" xml:space="preserve"><tspan fill="#52525B">// hero.js</tspan></text><text x="34" y="92" class="mono" font-size="12" fill="#3F3F46">1</text><text x="58" y="118" class="mono ln l1" font-size="13" xml:space="preserve"><tspan fill="#C084FC">const </tspan><tspan fill="#E4E4E7">tl = </tspan><tspan fill="#60A5FA">gsap</tspan><tspan fill="#E4E4E7">.</tspan><tspan fill="#60A5FA">timeline</tspan><tspan fill="#E4E4E7">({ defaults: { ease: </tspan><tspan fill="#86EFAC">"expo.out"</tspan><tspan fill="#E4E4E7"> } });</tspan></text><text x="34" y="118" class="mono" font-size="12" fill="#3F3F46">2</text><text x="34" y="144" class="mono" font-size="12" fill="#3F3F46">3</text><text x="58" y="170" class="mono ln l3" font-size="13" xml:space="preserve"><tspan fill="#E4E4E7">tl.</tspan><tspan fill="#60A5FA">from</tspan><tspan fill="#E4E4E7">(</tspan><tspan fill="#86EFAC">".title"</tspan><tspan fill="#E4E4E7">, { yPercent: </tspan><tspan fill="#FCA5A5">100</tspan><tspan fill="#E4E4E7">, duration: </tspan><tspan fill="#FCA5A5">1.2</tspan><tspan fill="#E4E4E7"> })</tspan></text><text x="34" y="170" class="mono" font-size="12" fill="#3F3F46">4</text><text x="58" y="196" class="mono ln l4" font-size="13" xml:space="preserve"><tspan fill="#E4E4E7">  .</tspan><tspan fill="#60A5FA">from</tspan><tspan fill="#E4E4E7">(</tspan><tspan fill="#86EFAC">".copy"</tspan><tspan fill="#E4E4E7">, { autoAlpha: </tspan><tspan fill="#FCA5A5">0</tspan><tspan fill="#E4E4E7">, y: </tspan><tspan fill="#FCA5A5">24</tspan><tspan fill="#E4E4E7"> }, </tspan><tspan fill="#86EFAC">"-=.8"</tspan><tspan fill="#E4E4E7">)</tspan></text><text x="34" y="196" class="mono" font-size="12" fill="#3F3F46">5</text><text x="58" y="222" class="mono ln l5" font-size="13" xml:space="preserve"><tspan fill="#E4E4E7">  .</tspan><tspan fill="#60A5FA">from</tspan><tspan fill="#E4E4E7">(</tspan><tspan fill="#86EFAC">".card"</tspan><tspan fill="#E4E4E7">, { scale: </tspan><tspan fill="#FCA5A5">.9</tspan><tspan fill="#E4E4E7">, stagger: </tspan><tspan fill="#FCA5A5">.08</tspan><tspan fill="#E4E4E7"> }, </tspan><tspan fill="#86EFAC">"&lt;.2"</tspan><tspan fill="#E4E4E7">);</tspan></text><text x="34" y="222" class="mono" font-size="12" fill="#3F3F46">6</text>
+    <line x1="610" y1="0" x2="610" y2="300" stroke="#FFFFFF" stroke-opacity=".06"/>
+    <!-- preview -->
+    <text x="636" y="34" class="mono" font-size="12" fill="#71717A">preview</text>
+    <rect x="636" y="52" width="300" height="222" rx="12" fill="#111216" stroke="#FFFFFF" stroke-opacity=".07"/>
+    <g clip-path="url(#titleMask)">
+      <text x="660" y="124" class="sans pt" font-size="28" font-weight="800" letter-spacing="-1" fill="#F4F4F5">Built to move.</text>
+    </g>
+    <g class="pcopy">
+      <rect x="660" y="148" width="230" height="8" rx="4" fill="#3F3F46"/>
+      <rect x="660" y="166" width="170" height="8" rx="4" fill="#3F3F46"/>
+    </g>
+    <rect x="658" y="202" width="80" height="58" rx="8" fill="#18181B" stroke="#27272A" class="pc" style="animation-name:pc0;transform-origin:698px 231px"/><rect x="746" y="202" width="80" height="58" rx="8" fill="#18181B" stroke="#27272A" class="pc" style="animation-name:pc1;transform-origin:786px 231px"/><rect x="834" y="202" width="80" height="58" rx="8" fill="#18181B" stroke="#27272A" class="pc" style="animation-name:pc2;transform-origin:874px 231px"/>
+    <rect x="636" y="272" width="300" height="2" fill="url(#acc2)" class="play" style="transform-origin:636px 0"/>
+  </g>
+  <rect x=".5" y=".5" width="959" height="299" rx="17.5" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+</svg>

@@ -1,17 +1,23 @@
 <img src="./assets/header.svg" alt="Shahruk Maharuj" width="100%" />
 
-I build headless WordPress sites, Shopify apps and AI tools for small and mid-size businesses, mostly in the US and UK. I've shipped over 1,500 sites, and I still write my own themes and plugins instead of stacking page builders.
+Hey, I'm Shahruk. I've been building for the web for about ten years, mostly for small businesses in the US and UK: contractors, clinics, coaches, online stores. Somewhere past 1,500 sites I stopped counting.
 
-### What I'm working on
+These days I spend most of my time on three things:
 
-- **AI Sales Assistant** — a chat agent that sits on a business website, answers from the company's own content, qualifies leads and books calls.
-- **Headless WordPress** — WordPress as the CMS, Next.js on the front, WPGraphQL in between.
-- **Shopify apps** — custom apps and theme extensions built on Remix and the Admin GraphQL API.
+**Headless WordPress.** Clients keep the WordPress editor they know. The front end is Next.js, pulling content through WPGraphQL, so pages load fast and I'm not fighting a theme.
 
-### Stack
+**Shopify apps.** Custom apps and theme app extensions with Remix, Polaris and the Admin GraphQL API, for stores that need something the app store doesn't have.
 
-Next.js · React · TypeScript · Node.js · NestJS · PHP · WordPress · WooCommerce · Shopify · PostgreSQL · MySQL · OpenAI / Claude APIs
+**An AI sales assistant.** My own product. It sits on a business website, answers visitors from the company's own content, figures out who's a real lead and books the call.
 
-### Contact
+I also care a lot about how a site feels. Scroll that doesn't stutter, text that comes in with some weight to it, small details nobody notices until they're missing. That's usually GSAP and Lenis on top of a clean build, something like this:
 
-[Fiverr](https://www.fiverr.com/shahrukapp) · [Facebook](https://www.facebook.com/shahruk.maharuj)
+<img src="./assets/motion.svg" alt="A GSAP timeline on the left and the animation it produces on the right" width="100%" />
+
+### What I work with
+
+Next.js, React, TypeScript, Node.js, NestJS, PHP, WordPress (WPGraphQL, ACF, custom blocks and plugins), Shopify (Remix, Polaris, Liquid), WooCommerce, PostgreSQL, MySQL, GSAP, Lenis, Tailwind, OpenAI and Claude APIs.
+
+### Get in touch
+
+I take on a few projects at a time. Reach me on [Fiverr](https://www.fiverr.com/shahrukapp) or [Facebook](https://www.facebook.com/shahruk.maharuj).
