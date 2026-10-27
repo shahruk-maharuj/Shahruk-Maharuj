@@ -2,6 +2,7 @@
 <h3 align="center">Headless WordPress · Shopify Apps · AI & Automation Builder</h3>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/shahrukmaharuj"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://www.fiverr.com/shahrukapp"><img src="https://img.shields.io/badge/Fiverr-Top%20Rated-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" /></a>
   <a href="https://www.youtube.com/@LearnWithShahruk"><img src="https://img.shields.io/badge/YouTube-Learn%20With%20Shahruk-FF0000?style=for-the-badge&logo=youtube&logoColor=white" /></a>
   <a href="https://www.facebook.com/shahruk.maharuj"><img src="https://img.shields.io/badge/Facebook-Connect-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
@@ -122,6 +123,6 @@ An AI sales agent for business websites that talks to every visitor, answers pro
 
 ### 📫 Let's build something
 
-- 💼 Hire me: **[Fiverr — Top Rated](https://www.fiverr.com/shahrukapp)**
+- 💼 Hire me: **[Fiverr — Top Rated](https://www.fiverr.com/shahrukapp)** · **[LinkedIn](https://www.linkedin.com/in/shahrukmaharuj)**
 - 🎥 Learn with me: **Learn With Shahruk** on YouTube
 - 📍 Chattogram, Bangladesh · working with clients worldwide (UTC+6)
